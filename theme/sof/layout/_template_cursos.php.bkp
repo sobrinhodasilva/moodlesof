@@ -1,0 +1,57 @@
+<div class="evsof_miolo_cursos">
+	<div class="evsof_miolo_cursos_topo">
+        <div class="evsof_miolo_cursos_titulo">Cursos</div>
+        <div class="evsof_miolo_cursos_todas"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=239" title="Clique para vizualizar todos os cursos">Todos os Cursos</a></div>
+    </div>
+        <div class="evsof_miolo_cursos_bloco_01">
+		<!-- Inclu&iacute;ndo o curso n&uacute;mero 01 /-->
+			<?php if((date('s')%2) == 0 ) { ?>
+                <a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=233" title="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico">
+                <img src="<?php echo $OUTPUT->pix_url('banners/orcamento_publico_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico" title="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico" border="0" /></a>
+                <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=233" title="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico">Or&ccedil;amento P&uacute;blico</a></p>
+                <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=233" title="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico">O or&ccedil;amento p&uacute;blico &eacute; uma das ferramentas mais importantes para a gest&atilde;o dos recursos p&uacute;blicos de um pa&iacute;s. Em sua origem, era basicamente um instrumento de controle dos gastos do Poder Executivo contendo previs&atilde;o de receita e autoriza&ccedil;&atilde;o de despesa...</a></p>
+                <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=233" title="Clique para saber mais sobre o Curso de Or&ccedil;amento P&uacute;blico">Saiba Mais</a></p>
+            <?php } else { ?>
+		<!-- Inclu&iacute;ndo o curso n&uacute;mero 02 /-->
+                <a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=234" title="Clique para saber mais sobre o Curso de Receita P&uacute;blica">
+                <img src="<?php echo $OUTPUT->pix_url('banners/receita_publica_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de Receita P&uacute;blica" title="Clique para saber mais sobre o Curso de Receita P&uacute;blica" border="0" /></a>
+                <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=234" title="Clique para saber mais sobre o Curso de Receita P&uacute;blica">Receita P&uacute;blica</a></p>
+                <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=234" title="Clique para saber mais sobre o Curso de Receita P&uacute;blica">O curso de Receita aborda os principais agregados da Receita P&uacute;blica, descrevendo e analisando sua liga&ccedil;&atilde;o com o processo or&ccedil;ament&aacute;rio, em termos de classifica&ccedil;&atilde;o, estimativas e impactos na fixa&ccedil;&atilde;o das despesas p&uacute;blicas...</a></p>
+                <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=234" title="Clique para saber mais sobre o Curso de Receita P&uacute;blica">Saiba Mais</a></p>
+            <?php } ?>
+        </div>
+        <div class="evsof_miolo_cursos_bloco_02">
+        <!-- Inclu&iacute;ndo o curso n&uacute;mero 03 /-->
+			<?php if((date('s')%2) == 0 ) { ?>
+        	<a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=235" title="Clique para saber mais sobre o Curso de Tutoria">
+            <img src="<?php echo $OUTPUT->pix_url('banners/tutoria_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de Tutoria" title="Clique para saber mais sobre o Curso de Tutoria" border="0" /></a>
+            <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=235" title="Clique para saber mais sobre o Curso de Tutoria">Tutoria</a></p>
+            <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=235" title="Clique para saber mais sobre o Curso de Tutoria">Em breve mais informa&ccedil;&otilde;es sobre o curso...</a></p>
+            <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=235" title="Clique para saber mais sobre o Curso de Tutoria">Saiba Mais</a></p>
+            <?php } else { ?>
+		<!-- Inclu&iacute;ndo o curso n&uacute;mero 04 /-->
+                <a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=236" title="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico">
+                <img src="<?php echo $OUTPUT->pix_url('banners/basico_em_orcamento_publico_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico" title="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico" border="0" /></a>
+                <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=236" title="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico">B&aacute;sico em Or&ccedil;amento P&uacute;blico</a></p>
+                <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=236" title="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico">No Curso B&aacute;sico em Or&ccedil;amento P&uacute;blico voc&ecirc; aprender&aacute; os conceitos fundamentais e a import&acirc;ncia do Or&ccedil;amento P&uacute;blico para cada cidad&atilde;o e cidad&atilde;. Ver&aacute; que existem Leis, Normas e t&eacute;cnicas que o regem...</a></p>
+                <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=236" title="Clique para saber mais sobre o Curso de B&aacute;sico em Or&ccedil;amento P&uacute;blico">Saiba Mais</a></p>
+            <?php } ?>
+		</div>
+        <div class="evsof_miolo_cursos_bloco_03">
+         <!-- Inclu&iacute;ndo o curso n&uacute;mero 05 /-->
+			<?php if((date('s')%2) == 0 ) { ?>
+			<a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=237" title="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios">
+            <img src="<?php echo $OUTPUT->pix_url('banners/lei_de_diretrizes_orcamentarias_para_municipios_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios" title="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios" border="0" /></a>
+            <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=237" title="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios">Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios</a></p>
+            <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=237" title="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios">A Constitui&ccedil;&atilde;o Federal de 1988 trouxe embutido em seu texto o princ&iacute;pio do planejamento ou da programa&ccedil;&atilde;o, ao prever a institui&ccedil;&atilde;o de uma tr&iacute;ade de instrumentos or&ccedil;ament&aacute;rios integrados entre si...</a></p>
+            <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=237" title="Clique para saber mais sobre o Curso de Lei de diretrizes or&ccedil;ament&aacute;rias para munic&iacute;pios">Saiba Mais</a></p>
+            <?php } else { ?>
+		<!-- Inclu&iacute;ndo o curso n&uacute;mero 06 /-->
+                <a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=238" title="Clique para saber mais sobre o Curso de Federalismo">
+                <img src="<?php echo $OUTPUT->pix_url('banners/federalismo_200_x_80', 'theme')?>" alt="Clique para saber mais sobre o Curso de Federalismo" title="Clique para saber mais sobre o Curso de Federalismo" border="0" /></a>
+                <p class="evsof_miolo_cursos_bloco_tit"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=238" title="Clique para saber mais sobre o Curso de Federalismo">Federalismo</a></p>
+                <p><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=238" title="Clique para saber mais sobre o Curso de Federalismo">A Constitui&ccedil;&atilde;o Federal de 1988 traz no seu artigo primeiro a express&atilde;o Rep&uacute;blica Federativa do Brasil, o termo "federativa" revela a forma de organiza&ccedil;&atilde;o do estado brasileiro &#45; uma federa&ccedil;&atilde;o...</a></p>
+                <p class="evsof_miolo_cursos_bloco_mais"><a href="<?php p($CFG->wwwroot) ?>/mod/page/view.php?id=238" title="Clique para saber mais sobre o Curso de Federalismo">Saiba Mais</a></p>
+			<?php } ?>
+		</div>
+</div>

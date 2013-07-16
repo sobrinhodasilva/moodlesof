@@ -1,0 +1,82 @@
+.evsof_miolo_cursos{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.evsof_miolo_cursos_topo{
+	margin-bottom: 1em;
+	border-bottom: 2px solid #29327C;
+	height: 20px;
+	clear: both;
+}
+
+.evsof_miolo_cursos_titulo{
+	color: #29327C;
+	font-size: 1.2em;
+	font-weight: bold;
+	float: left;
+}
+
+.evsof_miolo_cursos_todas{
+	margin-top: 0.1em;
+	float: right;
+}
+
+.evsof_miolo_cursos_bloco_01{
+	width: 205px;
+	min-height: 300px;
+	border-right: 2px solid #29327C;
+	float: left;
+	padding-left: 1em;
+	padding-right: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.evsof_miolo_cursos_bloco_02{
+	width: 205px;
+	min-height: 300px;
+	border-right: 2px solid #29327C;
+	float: left;
+	padding-right: 0.5em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.evsof_miolo_cursos_bloco_03{
+	width: 205px;
+	min-height: 300px;
+	float: left;
+	/*padding-right: 0.5em;*/
+	margin-bottom: 1em;
+}
+
+.evsof_miolo_cursos_bloco_tit{
+	margin-top: 0.5em;
+	font-size: 1.1em;
+	color: #29327C;
+	font-weight: bold;
+}
+
+.evsof_miolo_cursos_bloco_mais{
+	text-align: right;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+	color: #29327C;
+	font-weight: bold;
+}
+
+/*
+.evsof_miolo_cursos_bloco_mais a:hover{
+	text-decoration: underline;
+}*/
+
+.evsof_miolo_cursos a{
+	color: #29327C;
+	text-decoration: none;
+}
+
+.evsof_miolo_cursos a:hover{
+	color: #29327C;
+	text-decoration: none;
+}

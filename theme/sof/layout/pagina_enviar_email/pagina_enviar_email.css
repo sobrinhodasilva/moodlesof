@@ -1,0 +1,110 @@
+/* valida_certificado e Fale Conosco - input e buttom do formulario*/
+/* Esta sendo carregado diretamente pelo arquivo: /theme/sof/layout/fale_conosco/fale_conosco_form.php
+ * em virtude o form Fale Conosco ser incluido através de HTML IFRAME
+ */
+
+ /* Fale Conosco 
+		.evsof_miolo_texto_col_esq
+		.evsof_miolo_texto_col_dir
+		.evsof_input_portal 
+		.evsof_textarea_portal
+		.evsof_button_portal
+*/
+
+html, body {
+    color: #000000;
+    font-family: Verdana,Geneva,sans-serif;
+	padding: 10px;
+	background-color: #FCFCFC;
+}
+
+h2  {
+    border-bottom: 2px solid #29327C !important;
+    color: #29327C;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.9em;
+    padding-bottom: 0.2em;
+    padding-top: 0;
+    text-align: left;
+}
+
+
+
+
+.evsof_textarea_portal{
+	width: 300px;
+	height: 80px;
+	padding: 0.5em;
+	font-size: 1em;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFF;
+	background-color: #4A5B97;
+	border: 1px solid #29327C;
+}
+
+.evsof_textarea_portal:focus{
+	background-color: #FFC;
+	color: #29327C;
+}
+
+.evsof_fale_enviar_button, .evsof_cadastro_enviar_button {
+    margin-top: 0.5em;
+    text-align: right;
+}
+
+.evsof_button_portal {
+    background: #4A5B97 !important;
+    border: 1px solid #29327C !important;
+    border-radius: 5px 5px 5px 5px !important;
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+    padding: 0.3em !important;
+    width: 100px !important;
+	box-shadow: none;
+	text-shadow: none;
+	margin-right: 25px;
+}
+
+.evsof_button_portal:hover{
+	background-color: #FFC !important;
+	border: 1px solid #29327C !important;
+	color: #000 !important;
+}
+
+/* Botao e inputs do Fale Conosco
+ *
+ */
+
+.evsof_input_portal,
+.evsof_tel_ddd_portal,
+.evsof_tel_num_portal{
+	width: 300px;
+	padding: 0.5em;
+	font-size: 11px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFF;
+	background-color: #4A5B97;
+	border: 1px solid #29327C;
+	margin-bottom: 1em;	
+}
+
+.evsof_input_portal:focus,
+.evsof_tel_ddd_portal:focus,
+.evsof_tel_num_portal:focus{
+	background-color: #FFC;
+	color: #29327C;
+}
+
+label, p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.evsof_mensagem {
+    color: #29327C;
+}

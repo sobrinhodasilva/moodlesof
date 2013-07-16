@@ -1,0 +1,119 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Miolo - Formata a área de conteúdo da página                                           */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+
+
+.evsof_miolo_destaque{
+	width: 670px;
+	height: 191px;
+}
+
+.evsof_destque_banner {
+	width: 640px !important;
+}
+
+#region-main .evsof_destque_banner  ul li{
+	padding: 0px;
+}
+
+.evsof_destque_banner_controla{
+	float: right;
+	width: 30px;
+	margin-top: 111px;
+}
+
+.evsof_destque_banner_controla_prev{
+	width: 30px;
+	height: 40px;
+	background-image:url([[pix:theme|destaque_seta_prev]]);
+	/*background-image:url(../_imagens/template/destaque_seta_prev.png);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	border: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+.evsof_destque_banner_controla_next{
+	width: 30px;
+	height: 40px;
+	background-image:url([[pix:theme|destaque_seta_next]]);
+	background-position: center;
+	background-repeat: no-repeat;
+	border: transparent;
+	background-color: transparent;
+	color: transparent;
+}
+
+
+.bloco_autocadastro{
+	margin-top: 1em;
+	padding: 0.5em;
+	background-color: #4A5B97;
+	height: 58px;
+}
+
+.bloco_autocadastro img{
+	padding-right: 0.5em;
+}
+
+.bloco_autocadastro a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bloco_autocadastro a:hover{
+	color: #CCC;
+}
+
+.bloco_autocadastro_texto{
+	padding-top: 1.6em;
+	font-size: 1em;
+	position: absolute;
+}
+
+/*perguntas frequentes*/
+
+.evsof_pergunta_caixa_titulo{
+	margin-left: 1.2em;
+}
+
+.evsof_pergunta_caixa_titulo{
+	z-index: 1;	
+}
+
+.evsof_pergunta_caixa_titulo_link_mostrar{
+	display: block;
+	margin-top: -1.8em;
+	margin-bottom: 1em;
+	width: 670px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9999;
+}
+
+.evsof_pergunta_caixa_texto_conteudo{
+	margin-left: 2em;
+	border: 1px solid #29327C;
+	padding: 0.5em;
+	background-color: #4A5B97;
+	color: #FFF;
+}
+
+.evsof_pergunta_caixa_texto_conteudo p{
+	font-size: 1em !important;
+	line-height: 1.8em !important;
+}
+
+.evsof_pergunta_caixa_texto_conteudo a{
+	color: #FFF !important;
+}
+
+.evsof_pergunta_caixa_texto_conteudo a:hover{
+	color: #CCC !important;
+}

@@ -1,0 +1,121 @@
+
+/* página do Moodle - formatação do titulo do texto*/
+#maincontent {
+	height: 0;
+}
+
+.region-content #pageheading {
+	border-bottom: 2px solid #29327C !important;
+	padding-top: 0;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.9em;
+	text-align: left;
+	font-size: 1.1em;
+	color: #29327C;
+	font-weight: bold;	
+}
+
+/* INÍCIO FORMATA PÁGINA - página do Moodle - formatação do conteudo*/
+.pagina_site {
+	line-height: 20px;
+	/*font-size: 0.9em;*/
+}
+.pagina_site  p {
+	padding-bottom: 0.5em;
+	padding-top: 0px !important;
+	padding-left: 0px !important;
+	font-size: 1em !important;
+}
+
+.pagina_site  li {
+	margin-top: 5px;
+}
+
+.pagina_site  .pagina_site_margem {
+	padding-left: 4.5em !important;
+}
+
+.pagina_site_titulo {
+	margin-top: 1em;
+	font-size: 1.1em;
+	color: #29327C;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.pagina_site_titulo_insc_aberta {
+	color: #006600;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+.pagina_site_insc_encerrada {
+	color: #FF0000;
+	font-weight: bold;
+	padding-bottom:0.5em;
+}
+
+.evsof_miolo_titulo_mail img,
+.evsof_miolo_titulo_imprimir img{
+	vertical-align: middle;	
+}
+
+/*RETIRADO DA PÁGINA - excluir mail/imprimir caso nao seja utilizado*/
+.evsof_miolo_titulo_mail{
+	float: right;
+	padding-right: 1em;
+}
+/*RETIRADO DA PÁGINA - excluir mail/imprimir caso nao seja utilizado*/
+.evsof_miolo_titulo_imprimir{
+	float: right;
+}
+
+.pagina_site ul li{
+	list-style: disc;
+	margin-left: 2em;
+	margin-top: 1em;
+	text-align: justify;
+	font-size: 1em !important;
+}
+
+.pagina_site a {
+	color: #29327C;
+	text-decoration: underline;	
+}
+
+
+/* Fortama botoes 'Imprimir e EnviarEmail no recurso pagina (page)'
+ * inclusao dos botoes atraves do js/custom.js
+ */
+
+.pagina_site a:hover, 
+.evsof_miolo_titulo_imprimir a:hover, 
+.evsof_miolo_titulo_mail a:hover{
+	color: #FF0000;
+}
+
+.evsof_miolo_titulo_imprimir, .evsof_miolo_titulo_mail { 
+	background-repeat: no-repeat;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.evsof_miolo_titulo_imprimir {
+	background-image:url([[pix:theme|icone_imprimir]]);
+	padding-left:22px;
+}
+
+.evsof_miolo_titulo_mail {
+	background-image:url([[pix:theme|icone_mail]]);
+	padding-left:18px;	
+	background-position:left;
+}
+
+.pagina_site  .guestform {
+	/*
+	margin: 10px;*/
+	line-height: 5em;
+	text-align: center;
+}
+
+/* FIM-Formata página - página do Moodle - formatação do conteudo*/

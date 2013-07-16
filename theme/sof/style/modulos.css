@@ -1,0 +1,14 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Template - Formata os Módulos                                                          */
+/* @Autor: Wesley Gongora de Almeida                                                          */
+/* @Data: 27/09/2012                                                                          */
+/**********************************************************************************************/
+
+/* Módulo Certificate */
+   
+/* item01 - Retirar Texto informativo abaixo do link Certificado:
+   "Restritos: ‘Não está disponível a menos que você consiga uma pontuação particular em Avaliação Final.’ " */
+li .modtype_certificate .availabilityinfo {
+	/*display: none; -- //WGA-Editado - retirado em 21-02-2013, solicitado por Roberto*/
+}

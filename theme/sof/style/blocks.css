@@ -1,0 +1,312 @@
+#region-pre {
+	text-shadow: 1px 1px 1px white;
+}
+
+.block {
+	border: 0px solid #ccc;
+}
+
+.block.hidden {
+	margin-bottom: 0px;
+	background: #fafafa;
+}
+
+.block .header { /*evsof_miolo_noticias_topo*/
+	/*padding: 7px 10px;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;*/
+	/*box-shadow: 0px 0px 10px #eee inset;*/
+	
+	border-bottom: 2px solid #29327C;
+    clear: both;
+    height: 20px;
+    margin-bottom: 1em;	
+	
+}
+/*
+.block .header .title { evsof_miolo_noticias_titulo
+	color: #29327C;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}*/
+
+.block.hidden .header {
+	border-bottom: 0px solid transparent;
+}
+
+.block .title {
+
+}
+
+/* block titles */
+.block .title h2 {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #29327C;/*#666;*/
+}
+
+.block .content {
+	/*padding: 7px 12px;*/
+}
+
+/** some specific block styles for calendar block, login block, my profile block, etc. **/
+
+.block_calendar_month table.minicalendar.calendartable td,.block_calendar_month table.minicalendar.calendartable th {
+    border: none !important;
+}
+
+.block_calendar_month table.minicalendar {
+    margin-bottom: 0px !important;
+}
+
+.block_calendar_month table.minicalendar.calendartable th abbr {
+    border: none !important;
+    text-decoration: none;
+}
+
+.block_comments div.content li {
+    list-style-type: none;
+}
+
+.questionbankwindow.block {
+	padding: 0px;
+}
+
+.block_tree_box hr {
+	background: transparent;
+	border: none;
+	border-top: 1px solid #eee;
+}
+
+.block_login {
+	background-color: #29327C;
+	color: #FFFFFF;
+}
+
+.block_login .content {
+	padding: 0.5em !important;
+	font-size:11px;
+}
+
+.block_login label {
+	margin-bottom:0.5em;
+}
+
+.block_login #login_username, .block_login #login_password{
+	border: 1px solid #FFFFFF;
+	border-radius:5px 5px 5px 5px;
+    font-size: 1em !important;
+	width:220px;
+	margin-top:2px;
+	padding:0.5em;
+}
+
+.block_login #login_username:focus, .block_login #login_password:focus{
+	background-color:#FFFFCC;
+}
+
+.block_login .title h2 {
+	color: #FFFFFF;	
+	border-bottom: 2px solid #FFFFFF;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+	margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    text-align: center;	
+	font-weight:normal;
+}
+
+.block_login .btn {
+	float:right;
+	margin-right:1em;	
+}
+
+.block_login input[type="submit"] {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #29327C;
+    font-size: 1em;
+   	padding: 0.5em; /*padding: 0.3em;*/
+    width: 100px;
+}
+
+.block_login .footer {
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+	
+}
+
+.block_login .footer a {
+	color: #FFFFFF;	
+	text-decoration: underline;
+	font-size: 11px;
+}
+
+.block_html .header, .block_valida_certificado .header, .block_cadastre_se_aqui .header {
+	border-bottom: 0 !important;
+	display:  none;
+}
+
+.block_html .content  .no-overflow, .block_valida_certificado .content, .block_cadastre_se_aqui  .content  {
+	padding: 0px !important;
+}
+
+.block_html .title h2{
+	font-size: 1px;	
+	color: #FFFFFF;
+	margin: 0 !important;
+}
+
+/*quiz editing block header */
+#page-mod-quiz-edit .questionbankwindow div.header {
+	background-color: #eee;
+	color: inherit;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header a {
+	color: inherit;
+}
+
+
+/*Blocos HTML criados. Bloco auto_cadastro e valide_certificado*/
+
+.bloco_autocadastro, .bloco_valide_certificado {
+	/*margin-top: 1em;*/
+	padding: 0.5em;
+	background-color: #4A5B97;
+	height: 58px;
+}
+
+.bloco_autocadastro img, .bloco_valide_certificado img {
+	padding-right: 0.5em;
+}
+
+.bloco_autocadastro a, .bloco_valide_certificado a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bloco_autocadastro a:hover, .bloco_valide_certificado a:hover {
+	color: #CCC;
+}
+
+.bloco_autocadastro_texto, .bloco_valide_certificado_texto {
+	padding-top: 1.6em;
+	font-size: 1em;
+	position: absolute;
+}
+
+
+/* valida_certificado e Fale Conosco - input e buttom do formulario*/
+/* Fale Conosco 
+		.evsof_miolo_texto_col_esq
+		.evsof_miolo_texto_col_dir
+		.evsof_input_portal 
+		.evsof_textarea_portal
+		.evsof_button_portal
+*/
+
+.evsof_popup_fechar_link:hover{
+	color: #FF0000;
+}
+
+.evsof_popup_window
+.evsof_input_portal,
+.evsof_tel_ddd_portal,
+.evsof_tel_num_portal{
+	width: 320px;
+	padding: 0.5em;
+	font-size: 1em;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFF;
+	background-color: #4A5B97;
+	border: 1px solid #29327C;
+}
+
+
+.evsof_popup_window
+.evsof_input_portal:focus,
+.evsof_tel_ddd_portal:focus,
+.evsof_tel_num_portal:focus{
+	background: #FFC;
+	color: #29327C;
+}
+
+.evsof_popup_window
+.evsof_button_portal{
+	width: 100px;
+	padding: 0.3em;
+	font-size: 1em;
+	color: #FFF;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	background: #4A5B97;
+	border: 1px solid #29327C;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.evsof_popup_window
+.evsof_button_portal:hover{
+	background: #FFC;
+	border: 1px solid #29327C;
+	color: #000;
+}
+
+/* Categoria de Cursos Disponiveis na Pagina Inicial
+ * class="headingblock header"
+ */
+
+.course_category_tree {
+	font-size: 1.3em;
+}
+
+.course_category_tree .category .category_label {
+	padding-left: 17px;
+	font-weight: bold;
+}
+
+.course_category_tree .category .course {
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 0 0 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.course_category_tree .controls div {
+	margin: 0 30px 0 0;
+}
+
+.course_category_tree .with_children {
+	margin-bottom: 10px
+}
+
+/*Icone a direita que exibe o sumario do curso*/
+.course_category_tree .category .course_info {
+    top: 10px;
+}
+
+/* Block Book */
+.book_print_chapter, .book_print {
+	float:right;
+	font-size: 12px;
+}
+
+.book_print {
+	padding-left: 10px;
+}
+
+.book_name img.icon {
+	vertical-align: text-bottom;
+}

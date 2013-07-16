@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********************************************************************************************/
+/* CSS Geral - Inclui todos os estilos necessário para a página                               */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+.evsof_popup_tela{
+    width: 100%;
+    text-align: left;
+    line-height: 14px;
+}
+
+/* O z-index do div.evsof_popup_mask deve ser menor que do div.evsof_popup_boxes e do div.evsof_acesso_window */
+.evsof_popup_mask {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 9000;
+      background-color: #29327C;
+      display: none;
+      cursor: pointer;
+}
+
+.evsof_popup_boxes .evsof_popup_window {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 780px; 
+    height: 480px;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+}
+
+.evsof_popup_boxes a{
+    text-decoration: none;
+    border: none;
+}
+
+/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+.evsof_popup_boxes #evsof_acesso_dialog{
+    width: 600px; 
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid #CCC;
+	height: 380px;
+	/*display: block;*/
+}
+.evsof_popup_titulo {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    clear: both;
+    margin-left: -1px;
+	margin-right: -1px;
+    margin-top: -1px;
+    color: #29327C;
+    height: 25px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+.evsof_popup_titulo{
+    width: 597px;	
+}
+
+.evsof_popup_conteudo{
+    min-height: 265px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;	
+}
+
+.evsof_popup_conteudo a{
+    text-decoration: underline;
+    color: #00500F;
+}
+
+.evsof_popup_conteudo p{
+	line-height: 20px;
+	padding-bottom: 0.5em;
+}
+
+.evsof_popup_confirma{
+	background-color: #4A5B97;
+	border: 1px solid #29327C;
+	clear: both;
+	padding: 0.5em;
+	color: #FFF;
+	min-height: 100px;
+}
+
+.evsof_popup_confirma_esq{
+	float: left;
+	text-align: right;
+	width: 150px;
+	padding-top: 1.5em;
+}
+
+.evsof_popup_confirma_dir{
+	float: right;
+	text-align: left;
+	width: 400px;
+}
+
+/* posiciona o link para fechar a janela */
+.evsof_popup_fechar{
+    margin-top: -20px;
+    margin-right: -10px;
+    display: block;
+    text-align: right;
+    width: 100px;
+    float: right;
+	color: #4A5B97;
+}
+
+.evsof_popup_fechar a{
+    text-decoration: none;
+    border: none;
+	color: #4A5B97;
+}	
+
+.evsof_popup_fechar_link{
+	float: left;
+	margin-left: -25px;
+	margin-top: 25px;
+}
+
+.evsof_popup_footer{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: 2px solid #29327C;
+	text-align: center;
+	color: #29327C;
+}

@@ -1,0 +1,26 @@
+/*#WESLEY GONGORA DE ALMEIDA# em 24/09/2012 
+   ocultado inicialmente, mas foi necessario adicionar,
+   motivo: ao ir para a página de enviar mensagem, o botao "Visualizar" estava oculto 
+   aberto chamado em 21/09/2012 pela SOF para correcao*/
+#region-main table tbody tr.zebra #coursesearch,
+#region-main table tbody tr.zebra .singlebutton {
+	display:none !important; /*comentado para corrigir o problema, verficar o impacto no restante do Moodle*/
+}
+
+
+#pagina-inicial #region-main table tbody tr.zebra {
+	display:none !important;
+}
+
+
+.course_category_tree .category .courses .course_link {
+  background-image:none;
+  padding-left:0;
+}
+
+/*
+ * reducao da margem a esquerda dos cursos para retirar barra de rolagem
+ */
+#region-main ul, #region-main ol {
+ /* padding-left:5px !important; */
+}

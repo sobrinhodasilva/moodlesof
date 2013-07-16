@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********************************************************************************************/
+/* CSS Geral - Inclui todos os estilos necessário para a página                               */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+/* Definições do CSS Reset */
+@import url("_estilo_css_reset.css");
+
+/* Definições da barra do Governo Federal */
+@import url("_estilo_barra_governo.css");
+
+/* Definições das áreas comuns da página */
+@import url("_estilo_template.css");
+
+/* Definições da janela Modal */
+@import url("_estilo_modal.css");
+
+/* Definições do cabeçalho */
+@import url("_estilo_cabecalho.css");
+
+/* Definições do miolo */
+@import url("_estilo_miolo.css");
+
+/* Definições do rodape */
+@import url("_estilo_rodape.css");

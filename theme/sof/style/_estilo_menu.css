@@ -1,0 +1,93 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Menu - Formata o menu principal da página                                              */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+.evsof_menu_ul {
+	margin: 0;
+	padding: 0;
+}
+
+.evsof_menu_ul ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.evsof_menu_ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.evsof_menu_ul li a, .evsof_menu_ul li a:link, .evsof_menu_ul li a:visited {
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	border-left: 1px solid #FFF;
+}
+
+.evsof_menu_ul li.evsof_menu_ul_inicial a:hover{
+	background-color: #FFF;
+	border-left: 1px solid #FFF;
+}
+
+.evsof_menu_ul li a:hover, .evsof_menu_ul li a:active {
+	text-decoration: none;
+	padding: 0.5em;
+	color: #FFF;
+	background-color: #29327C;
+}
+
+.evsof_menu_ul li li a, .evsof_menu_ul li li a:link, .evsof_menu_ul li li a:visited {
+	background-color: #29327C;
+	width: 300px;
+	color: #FFF;
+	padding: 0.8em;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	font-size: 0.8em;
+	margin-top: -0.2em;
+}
+
+.evsof_menu_ul li li a:hover, .evsof_menu_ul li li a:active {
+	color: #FFF; /*--cor do link--*/
+	background-color: #4A5B97;
+}
+
+.evsof_menu_ul li {
+	float: left;
+	padding: 0;
+}
+.evsof_menu_ul li ul {
+	/*z-index: 9999;*/
+	position: absolute;
+	left: -999em;
+	width: 170px;
+	padding: 0;
+}
+
+.evsof_menu_ul li ul a {
+	border-bottom: none;
+	text-align: left;
+}
+
+.evsof_menu_ul li ul a:hover {
+	border-bottom: none;
+}
+
+.evsof_menu_ul li ul ul {
+	margin: -32px 0 0 171px;
+}
+.evsof_menu_ul li:hover ul ul, .evsof_menu_ul li:hover ul ul ul, .evsof_menu_ul li.sfhover ul ul, .evsof_menu_ul li.sfhover ul ul ul {
+	left: -999em;
+}
+.evsof_menu_ul li:hover ul, .evsof_menu_ul li li:hover ul, .evsof_menu_ul li li li:hover ul, .evsof_menu_ul li.sfhover ul, .evsof_menu_ul li li.sfhover ul, .evsof_menu_ul li li li.sfhover ul {
+	left: auto;
+}
+.evsof_menu_ul li:hover, .evsof_menu_ul li.sfhover {
+	position: static;
+}

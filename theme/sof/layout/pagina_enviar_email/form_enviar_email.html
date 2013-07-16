@@ -1,0 +1,35 @@
+
+<html>
+<body>
+
+<link href="pagina_enviar_email.css" rel="stylesheet" type="text/css">
+
+<div id="paginas_site_mailto">
+	<h2 id="pageheading">Enviar esta p&aacute;gina para algu&eacute;m:</h2>
+	<br/>
+
+	<form action="enviaEmail_pagina.php" id="mailtoForm" method="post">
+		<div>
+			<label for="evsof_email_mailto">Informe o e-mail do seu amigo:</label><br/>
+			<input type="text" id="evsof_email_mailto" name="evsof_email_mailto" class="evsof_input_portal" size="25" value=""/>
+		</div>
+		<div>
+			<label for="evsof_email_emailRemetente">Informe o seu e-mail:</label><br/>
+			<input type="text" id="evsof_email_emailRemetente" name="evsof_email_emailRemetente" class="evsof_input_portal" value="" size="25" />
+		</div>
+		<div>
+			<label for="evsof_nome_remetente">Informe o seu nome:</label><br/>
+			<input type="text" id="evsof_nome_remetente" name="evsof_nome_remetente" class="evsof_input_portal" value="" size="25" />
+		</div>
+		<div>
+			<label for="evsof_email_mensagem">Seu coment&aacute;rio:</label><br/>
+			<textarea id="evsof_email_mensagem" name="evsof_email_mensagem" class="evsof_textarea_portal" maxlength="50" cols="25" rows="3"></textarea>
+		</div>
+		<p><input type="reset" class="evsof_button_portal" title="Clique para Limpar o Formul&aacute;" Value="Limpar"/>
+		   <input type="submit" class="evsof_button_portal" title="Clique para enviar a sua mensagem" Value="Enviar"/></p>
+	
+	</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Template - Formata a barra do governo federal                                          */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+#barra-brasil ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+}
+
+/* Formatando a barra do governo */
+#barra-brasil { 
+    position:relative;
+    overflow:hidden;
+    min-width: 1000px;
+    background: #00500F /*url([[pix:theme|barra_gov/barra-brasil-v3-bgx]]) center bottom no-repeat*/;
+    /*background: #00500F url(../_imagens/barra-brasil-v3-bgx.png) center bottom no-repeat;*/
+}
+
+#barra-brasil .barra {
+    display: block;
+    width: 940px;
+    height: 28px;
+    margin: 0 auto;
+    background: url([[pix:theme|barra_gov/barra-brasil-v3-bgx2]]) 0 bottom repeat-x;
+    /*background: url(../_imagens/barra_gov/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;*/	
+	
+}
+
+#barra-brasil .barra ul {
+    float:right;
+    width: 319px;
+}
+
+#barra-brasil .barra ul li {
+    float: left;
+    padding-left: 25px;
+}
+
+#barra-brasil .ai {
+    display: block;
+    width: 161px;
+    height: 28px;
+    background: #00500F url([[pix:theme|barra_gov/ai]]) no-repeat 0 4px;
+    /*background: #00500F url(../_imagens/barra_gov/ai.png) no-repeat 0 4px;*/
+	color: transparent;
+}
+
+#barra-brasil .brasilgov {
+    display: block;
+    width: 108px;
+    height: 28px;
+    background: #00500F url([[pix:theme|barra_gov/brasil]]) no-repeat 0 4px;
+    /*background: #00500F url(../_imagens/barra_gov/brasil.png) no-repeat 0 4px;*/
+	color: transparent;
+}

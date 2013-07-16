@@ -1,0 +1,31 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Cabecalho - Formata o cabecalho da página                                              */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+
+
+
+#acessibilidade{
+	padding-top: 0.5em;
+	/*padding-right: 0.5em;*/
+	color: #29327C;
+	clear: both;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+#acessibilidade a{
+	text-decoration: none;
+}
+
+#acessibilidade a:hover{
+	color: #FF0000;
+}
+
+#acessibilidade img{
+	vertical-align: middle;
+	padding-left: 1em;
+}

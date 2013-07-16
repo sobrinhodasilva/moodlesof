@@ -1,0 +1,19 @@
+ANTES DE FAZER ALTERAÇÕES PRA FORMATACAO DO LAYOUT
+
+RETIRAR css destes 3:
+---------------------------
+region-main-b0ox
+region-post-bo0x
+region-main-wrap0
+
+
+
+editar este:
+---------------------------
+#region-main
+
+
+.side-post-only #page-content #region-main {
+    float: left;
+    margin-left: 0;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Rodape - Formata o rodape da página                                                    */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+.evsof_rodape{
+	height: 190px;
+	background-image: url([[pix:theme|fundo_rodape]]);
+	background-position: center;
+	background-repeat: repeat-x;
+	clear: both;
+}
+
+.evsof_rodape_marcacao{
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px;
+	height: 190px;
+	background-image: url([[pix:theme|fundo_rodape_menu]]);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.evsof_rodape_menu{
+	text-align: center;
+	padding-top: 2.2em;
+	color: #FFF;
+	clear: both;
+}
+
+.evsof_rodape_menu a{
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.evsof_rodape_menu a:hover{
+	color: #CCC;
+}
+
+.evsof_rodape_assinatura{
+	clear: both;
+	text-align: center;
+	padding-top: 5em;
+	line-height:100%;
+}
+
+.evsof_rodape_assinatura_esq{
+	float: left;
+	margin-left: 300px;
+}
+
+.evsof_rodape_assinatura_dir{
+	float: right;
+	text-align: left;
+	margin-right: 300px;
+	padding-top: 1em;
+}

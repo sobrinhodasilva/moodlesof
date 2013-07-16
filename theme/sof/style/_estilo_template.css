@@ -1,0 +1,40 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/* CSS Template - Formata a área geral da página                                              */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Data: 01/05/2012                                                                          */
+/**********************************************************************************************/
+
+html{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
+
+body{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.evsof_geral{
+	margin: 0px auto;
+	padding: 0px;
+	background-image: url(../_imagens/template/fundo_pagina.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	min-width: 1000px;
+}
+
+.evsof_geral a{
+	color: #29327C;
+}
+
+.evsof_geral a:hover{
+	color: #F00;
+}
+
+.evsof_conteudo{
+	width: 940px;
+	margin: 0px auto;
+	padding: 0px;
+	min-height: 380px;
+}

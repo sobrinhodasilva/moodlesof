@@ -1,0 +1,60 @@
+.side-pre-only #page-content #region-main,
+.blocks-moving.side-post-only #page-content #region-main {
+    margin-left: 250px;
+}
+
+#page-content #region-pre {
+    width: 250px;
+}
+
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main ,
+.blocks-moving.side-post-only  #page-content #region-main-box #region-post-box #region-main-wrap #region-main {
+    padding-left: 40px;
+}
+
+.side-post-only #page-content #region-main ,
+.blocks-moving.side-post-only #page-content #region-main {
+    float: left;
+    margin-left: 0;
+	padding: 0;
+}
+
+
+.side-post-only #page-content #region-main-box ,
+.blocks-moving.side-post-only #page-content #region-main-box {
+	padding: 0.5em;
+	left: 0;
+	width: 100%;
+}
+
+/*HACK-WGA 11-03-2013 IE - Pagina de Notas sem aparecer tabela*/
+#page-content #region-main-box {
+	float: none;
+}
+/*fim HACK-WGA*/
+
+
+
+#page-content #region-main-box .region-content {
+	padding: 0px;
+	clear: both;
+}
+
+.side-post-only #page-content #region-post,
+.blocks-moving.side-post-only #page-content #region-post {
+	float: right;
+	width: 250px;
+}
+
+#page-content #region-post-box {
+	margin-left: 0px !important;/*hack para layout dentro do curso*/
+	float: right !important;
+	width: 250px !important;
+}
+
+.side-post-only #page-content #region-post-box,
+.blocks-moving.side-post-only #page-content #region-post-box {
+	margin-left: 0px;/*hack para layout dentro do curso*/
+	float: right;
+	width: 250px;
+}

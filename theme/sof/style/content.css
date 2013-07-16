@@ -1,0 +1,170 @@
+@charset "utf-8";
+/**********************************************************************************************/
+/*                                                                                            */
+/* CSS Content - Define estilos para os conteúdos dos cursos                                  */
+/* @Autor: Roberto Sobrinho da SIlva                                                          */
+/* @Email: sobrinhodasilva@gmail.com                                                          */
+/* @Data: 03/06/2012                                                                          */
+/*                                                                                            */
+/* @Atualização: Formatação dos cursos                                                        */
+/* @Autor: Narmer Abouhassan                                                                  */
+/* @Email: narmer@narmer.com.br                                                               */
+/* @Data: 11/06/2012                                                                          */
+/*                                                                                            */
+/**********************************************************************************************/
+
+
+/*************************************************/
+/* Conteúdo                                      */
+/*************************************************/
+html, body{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	
+}
+	
+/* Wesley em 30/09/2012
+   o padding 6px deixa o curso BasicoOrcPuc com o conteudo com barra de rolagem. 
+   se retirar, o espaçamento dentro do Modulo BOOK (Livro) fica inadequado.
+   Incluido espaçamento ligeiramente menor na pagina do curso para corrigir o problema
+ */
+#region-main .course-content .topics .content .summary p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding: 5px;  
+	text-align:justify;
+}	
+
+#region-main p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding: 6px;  
+	text-align:justify;
+}
+
+/*************************************************/
+/* Título do Livro                               */
+/*************************************************/
+
+.book_name {
+	text-align: left;!important
+	border-bottom: 2px solid #006;
+	margin-bottom: 0.5em;
+	
+}	
+
+#region-main h1{
+	color: #006;
+	font-size: 1.5em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	border-bottom:solid;
+}
+	
+#region-main h2{
+	font-size: 1.4em;
+	color: #006;
+}
+
+#region-main h3{
+	font-size: 1.3em;
+	color: #006;
+}
+	
+#saibaMaisButton{
+	padding: 1em;
+	display: inherit;
+}
+
+/*Orçamento público*/
+.book_banner{
+	width:670px;
+	height:90px;
+	}
+#curse_banner3, #curse_banner30, #curse_banner29{
+	background-image:url([[pix:theme|orcamento_publico]]) ;
+	}
+#curse_banner2, #curse_banner51, #curse_banner57{
+	background-image:url([[pix:theme|basico_em_orcamento_publico]]) ;
+	}
+#curse_banner4{
+	background-image:url([[pix:theme|receita_publica]]) ;
+	}
+#curse_banner13{
+	background-image:url([[pix:theme|tutoria]]) ;
+	}
+#curse_banner12{
+	background-image:url([[pix:theme|lei_de_diretrizes_orcamentarias_para_municipios]]) ;
+	}
+#curse_banner11{
+	background-image:url([[pix:theme|federalismo]]) ;
+	}
+
+/*************************************************/
+/* Listas                                        */
+/*************************************************/
+
+#region-main ul, #region-main ol {
+	padding-left: 15px;
+}
+
+.book_content ul li {
+	list-style: circle; 
+	margin-left:1em;
+}
+.book_content ul li ul {
+	margin-left:1em;
+}
+
+#region-main ol li {
+	list-style: lower-alpha;
+}
+
+/*************************************************/
+/* Negrito                                       */
+/*************************************************/
+
+#region-main b , strong{
+	font-weight: bold;
+}
+	
+/*************************************************/
+/* Tabelas                                       */
+/*************************************************/
+
+#region-main table tr td, #region-main table tr th{
+	border: 1px solid #FFF;
+	padding: 0.2em;
+}
+		
+#region-main table thead tr{
+	background: #E6E6E6;
+	color: #006;
+}
+
+#region-main table thead tr td{
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#region-main table tbody tr{ 
+	background: #F4F4F4;
+	color: #000;
+}
+	
+/*************************************************/
+/* Linhas ímpares das Tabelas                    */
+/*************************************************/
+
+#region-main table tbody tr.zebra{
+	background: #9CF;
+}
+
+/*************************************************/
+/* Botão inferior do Livro                       */
+/*************************************************/
+
+.navbottom{
+	padding-top: 1em;	
+}
